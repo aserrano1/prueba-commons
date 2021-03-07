@@ -19,7 +19,7 @@ import java.time.LocalDate;
 public class Contrato  implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id=;
+    private long id;
 
     private static final long serialversionUID = 1l;
 
